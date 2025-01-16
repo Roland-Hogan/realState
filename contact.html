@@ -21,14 +21,14 @@
         <p>We sell luxury houses, condominiums, and penthouses</p>
     </header>
     <main class="container">
-        <div>
+        <div class="contact-text">
                 <h2>Contact</h2>
                 <p>Fill the next informtion</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur et earum, quae quidem quam nam.<i class="fa-solid fa-circle-info"></i></p>
         </div>
 
         <form class="contact-form container">
-            <fieldset>
+            <fieldset class="fieldset-container">
                     <legend>Personal information</legend>
                         <div class="form-control">
                             <label>Name:</label>
@@ -46,6 +46,36 @@
                             <label>Message:</label>
                             <textarea id="Message" placeholder="Include your message here"></textarea>
                         </div>
+            </fieldset>
+            <fieldset  class="fieldset-container">
+                    <legend>Product information</legend>
+                        <div class="form-control" >
+                            <label>Type:</label>
+                            <select id="dropdown" class="select-container">
+                                <option value="option 1">Option 1</option>
+                                <option value="option 2">Option 2</option>
+                                <option value="option 3">Option 3</option>
+                            </select>
+                        </div>
+                        <div class="form-control" >
+                            <label>Number:</label>
+                            <input type="number">
+                        </div>
+            </fieldset>
+            <fieldset  class="fieldset-container">
+                <legend>Contact Information</legend>
+                    <div class="contact-information form-control">
+                        <label>Email</label>
+                        <input type="radio">
+                        <label>Phone</label>
+                        <input type="radio">
+                    </div>
+                    <div class="contact-information form-control">
+                        <label>Date</label>
+                        <input type="date">
+                        <label>Hour</label>
+                        <input type="datetime">
+                    </div>
             </fieldset>
         </form>
     </main>

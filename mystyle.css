@@ -140,7 +140,7 @@ img{
 
 
 .contact-text{
-    text-align: ;
+    text-align: center;
 }
 .contact-text p{
     font-size: 14px;
@@ -183,4 +183,14 @@ legend{
     width: 20px;
     border-radius: 50%;
     text-align: center;
+}
+.contact-information{
+    padding: 30px;
+}
+.fieldset-container{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.select-container{
+    width: 75%;
 }
