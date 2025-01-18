@@ -79,6 +79,7 @@ img{
 
 
 
+
 /*more about us*/
 
 .more-about-container{
@@ -140,6 +141,11 @@ img{
     background-color: lightgray;
     justify-content: space-around;
     align-items: center;
+}
+
+.information-footer{
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 /*contact*/
