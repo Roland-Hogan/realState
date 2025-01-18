@@ -52,11 +52,17 @@ img{
 /*header*/
 .primary-header{
     background-image: url(img/header.jpg);
+}
+.header{
     background-position: center;
     background-size: cover;
     height: 300px;
     color: white;
     text-align: center;
+}
+.secondary-header{
+    background-color: orange;
+
 }
 .menu-bar{
     display: flex;
