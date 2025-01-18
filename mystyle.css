@@ -62,7 +62,7 @@ img{
 }
 .secondary-header{
     background-color: orange;
-
+    color: black;
 }
 .menu-bar{
     display: flex;
@@ -74,6 +74,23 @@ img{
 .menu a{
     margin-right: 30px;
     color: white;
+}
+.menu-contact a{
+    margin-right: 30px;
+    color: black;
+}
+@media(max-width:768px){
+    .menu-bar{
+    flex-direction: column;
+    }
+    .menu a{
+        display: block;
+        margin-bottom: 20px;
+        font-size: 20pn;
+    }
+    h1{
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -88,6 +105,19 @@ img{
 }
 .more-about-item{
     padding: 10px;
+}
+@media(max-width:768px){
+    .more-about-container{
+        flex-direction: column;
+    }
+    .more-about-container img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .more-about-container h3{
+        text-align: center;
+    }
 }
 
 /*houses*/
@@ -143,7 +173,14 @@ img{
     align-items: center;
 }
 
-.information-footer{
+.information-footer-privacy{
+    font-weight: bold;
+    text-decoration: underline;
+    border-left: 3px solid black;
+    padding: 10px;
+}
+
+.information-footer-zillow{
     font-weight: bold;
     text-decoration: underline;
 }
