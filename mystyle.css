@@ -79,6 +79,10 @@ img{
     margin-right: 30px;
     color: black;
 }
+.menu-footer a{
+    margin: 30px;
+    color: white;
+}
 @media(max-width:768px){
     .menu-bar{
     flex-direction: column;
@@ -86,7 +90,7 @@ img{
     .menu a{
         display: block;
         margin-bottom: 20px;
-        font-size: 20pn;
+        font-size: 15px;
     }
     h1{
         margin-bottom: 20px;
@@ -162,8 +166,28 @@ img{
     color: green;
     font-weight: bold;
 }
+
+@media(max-width:768px){
+    .section-container{
+        flex-direction: column;
+    }
+    .section-container img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section-container h3{
+        text-align: center;
+    }
+}
 /*footer*/
 
+.footer-container{
+    display: flex;
+    margin-top: 20px;
+    background-image: url(img/highlight.jpg);
+    flex-direction: column;
+}
 .contact-footer{
     display: flex;
     height: 150px;
@@ -183,6 +207,23 @@ img{
 .information-footer-zillow{
     font-weight: bold;
     text-decoration: underline;
+}
+
+@media(max-width:768px){
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-container h1{
+        text-align: center;
+    }
+    .menu-footer{
+        flex-direction: column;
+        }
+        .menu-footer a{
+            display: block;
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
 }
 
 /*contact*/
